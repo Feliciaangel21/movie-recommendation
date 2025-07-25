@@ -26,8 +26,8 @@ def give_recommendations(movie_title, model,data, dataframe):
     movie_indices_10 = [i[0] for i in model_scores_10]
     return dataframe['original_title'][movie_indices_10]
 
-st.set_page_config(page_title= "Simple Movie Rcommender", layout= "centered")
-st.title("Simple Movie REcommender")
+st.set_page_config(page_title= "Simple Movie Recommender", layout= "centered")
+st.title("Simple Movie Recommender")
 st.write("Find movies similar to your favorite one!")
 
 movie_list = data['original_title'].sort_values().tolist()
