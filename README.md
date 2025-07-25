@@ -5,14 +5,14 @@ This project demonstrates how to build a simple content-based movie recommendati
 
 ---
 
-## 📁 Datasets Used
+##  Datasets Used
 
 - **movies.csv** — Contains metadata such as title, genres, popularity, and overview.
 - **credits.csv** — Contains cast and crew information.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Data cleaning and merging of movie metadata and credits
 - Ranking movies by:
@@ -26,7 +26,7 @@ This project demonstrates how to build a simple content-based movie recommendati
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 - Python
 - Pandas, NumPy
@@ -36,7 +36,7 @@ This project demonstrates how to build a simple content-based movie recommendati
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 - Boxplots for vote count distribution
 - Bar plots for:
@@ -46,7 +46,7 @@ This project demonstrates how to build a simple content-based movie recommendati
 
 ---
 
-## 🧠 Recommendation System
+##  Recommendation System
 
 The recommendation system uses the movie’s overview (`description`) to compute similarity scores and recommend the most similar movies using:
 
@@ -54,7 +54,7 @@ The recommendation system uses the movie’s overview (`description`) to compute
 TfidfVectorizer + Sigmoid Kernel
 ````
 
-## 📝 Future Improvements
+##  Future Improvements
 
 * Use cosine similarity for better performance
 * Incorporate genre, cast, and crew into similarity model
