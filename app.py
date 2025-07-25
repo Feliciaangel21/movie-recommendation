@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-file_path = '/Users/feliciaangel/Documents/portfolio/movie/dumped_obj'
+file_path = 'dumped_obj'
 
 def load_data(file_path):
     data = pd.read_csv(file_path + "/" + 'movie_data_for_app.csv')
